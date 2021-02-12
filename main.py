@@ -2,7 +2,7 @@ from PyQt5 import QtWidgets, QtGui
 from gui import Ui_MainWindow
 import requests
 import sys, os
-import YTS_OOP
+import YTS_CLI
 import pyperclip as clip
 import iso639
 

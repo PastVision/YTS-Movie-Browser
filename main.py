@@ -18,7 +18,7 @@ class AppUI(Ui_MainWindow):
 
     def connect(self):
         while self.CONNECTED == False:
-            temp = YTS_OOP.yts()
+            temp = YTS_CLI.yts()
             if temp.connected:
                 self.CONNECTED = True
                 self.YTS = temp
